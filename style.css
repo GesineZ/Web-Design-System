@@ -1,0 +1,16 @@
+div {
+    border: 1px solid hsla(hue, saturation, lightness, alpha);
+}
+
+/* colors part */
+#seagreen {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-color: hsla(182, 96%, 27%, 0.5);
+    border: none;
+}
+
+/* fonts part */ 
+
+/* text-styles part*/
