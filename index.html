@@ -2,47 +2,69 @@
 <meta name="viewport" content="device-width">
 
 <html>
-
     <head>
         <title>
             Design System
         </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Fredericka+the+Great&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
         <link href="style.css" type="text/css"  rel="stylesheet"> 
     </head>
 
     <body>
         <!-- color section -->
-        <div>
+        <div class="container">
             <h2>Colors</h2>
-            <div id="light_petrol" class="colorblock">
+            <div id="light_petrol" class="colorpanel">
                 <p>Light petrol</p>
                 <p>hsla (182, 96%, 27%, 0.5)</p>
                 <p>As Background or borders</p>
             </div>
-            <div id="oldwhite" class="colorblock">
+            <div id="oldwhite" class="colorpanel">
                 <p>Old white</p>
                 <p>hsl (15, 40%, 98%)</p>
                 <p>Use as more decent color on darker backgrounds</p>
             </div>
-            <div id="darkblue" class="colorblock">
+            <div id="darkblue" class="colorpanel">
                 <p>Dark Blue</p>
                 <p>hsl (15, 40%, 98%)</p>
                 <p>Another color for backgrounds or borders</p>
             </div>
-            <div id="light_gray" class="colorblock">
+            <div id="light_gray" class="colorpanel">
                 <p>Light Gray</p>
                 <p>hsl (204, 2%, 59%)</p>
                 <p>Soft borders or more decent color on light backgrounds</p>
             </div>
         </div>
         <!-- font section -->        
-        <div>
+        <div class="container">
             <h2>Fonts</h2>
-            <p>Raleway</p>
-            <p></p>
+            <div class="textpanel raleway">
+              <p>Raleway</p>
+              <p>The small green frog hops over the big yellow sock.</p>
+              <p class="bold">The small green frog hops over the big yellow sock.</p>
+              <p class="italic">The small green frog hops over the big yellow sock.</p>
+            </div>
+            <div class="textpanel dancing_script">
+              <p>Dancing Script</p>
+              <p>The small green frog hops over the big yellow sock.</p>
+              <p class="bold">The small green frog hops over the big yellow sock.</p>
+              <p class="italic">The small green frog hops over the big yellow sock.</p>
+            </div>
+            <div class="textpanel eb_garamond">
+              <p>EB Garamond</p>
+              <p>The small green frog hops over the big yellow sock.</p>
+              <p class="bold">The small green frog hops over the big yellow sock.</p>
+              <p class="italic">The small green frog hops over the big yellow sock.</p>
+            </div>
+            <div class="textpanel fredericka">
+              <p>Fredericka the Great</p>
+              <p>The small green frog hops over the big yellow sock.</p>
+            </div>
         </div>
         <!-- style section-->
-        <div>
+        <div class="container">
             <h2>Styles</h2>
         </div>
     </body>

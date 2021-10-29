@@ -1,28 +1,19 @@
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url('https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoorCIPrE.woff2') format('woff2');
-}
-
 body {
     font-family: 'Raleway';
 }
 
-div {
+.container {
     border: 1px solid hsl(210, 1%, 50%);
     padding: 10px;
     margin-top: 10px;
 }
 
-.colorblock {
+.colorpanel {
     display: inline-block;
     width: 350px;
     height: 125px;
     padding: 10px;
-    border: none;
-    margin: 5px;
+    margin: 5px auto;
 }
 /* colors part */
 
@@ -47,5 +38,36 @@ div {
 }
 
 /* fonts part */ 
+.textpanel {
+    display: inline-block;
+    width: 450px;
+    height: 125px;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.raleway {
+  font-family: "Raleway";
+}
+
+.dancing_script {
+  font-family: "Dancing Script";
+}
+
+.eb_garamond {
+  font-family: "EB Garamond";
+}
+
+.fredericka {
+  font-family: "Fredericka the Great";
+}
+
+.bold {
+  font-weight:700;
+}
+
+.italic {
+  font-style: italic;
+}
 
 /* text-styles part*/
