@@ -18,10 +18,11 @@ h1 {
 
 .colorpanel {
     display: inline-block;
-    width: 350px;
-    height: 125px;
-    padding: 10px;
-    margin: 5px auto;
+    box-sizing: border-box;
+    width: 365px;
+    height: 110px;
+    padding: 0 10px;
+    margin: 10px auto;
 }
 /* colors part */
 
@@ -33,6 +34,7 @@ h1 {
 #oldwhite {
     background-color: hsl(15, 40%, 98%);
     color:hsl(210, 1%, 50%);
+    border:  1px solid hsl(210, 1%, 50%);
 }
 
 #darkblue {
