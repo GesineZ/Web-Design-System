@@ -7,6 +7,7 @@ body {
 
 h1 {
   color: hsl(15, 40%, 98%);
+  font-family: "Fredericka the Great";
   font-size: 40px;
   font-weight: 400;
 }
@@ -79,6 +80,10 @@ h3 {
   font-family: "Fredericka the Great";
 }
 
+.eb_garamond {
+  font-family: "EB Garamond";
+}
+
 .bold {
   font-weight:700;
 }
@@ -97,7 +102,6 @@ h3 {
 }
 
 .main {
-  font-family: 'Fredericka the Great';
   color: hsl(216, 25%, 22%);
 }
 
@@ -107,7 +111,7 @@ li {
 }
 
 .heading {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 8%);
 }
 
 .paragraph {
